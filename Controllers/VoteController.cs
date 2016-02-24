@@ -2,8 +2,8 @@
 using NGM.VoteUpDown.Models;
 using NGM.VoteUpDown.Services;
 using Orchard.ContentManagement;
-using Orchard.Core.Contents.Controllers;
 using Orchard.Localization;
+using Orchard.Mvc;
 using Orchard.Mvc.Extensions;
 using Orchard.Security;
 
