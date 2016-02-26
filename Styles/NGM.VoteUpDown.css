@@ -1,25 +1,46 @@
-﻿.up-submit {
-	background: transparent url(images/up_arrow.png) no-repeat top left;
+﻿button.up-submit,
+button.up-submit.active[type="submit"],
+button[type="submit"].up-submit:active {
+  background: transparent url(images/up_arrow.png) no-repeat top left;
 }
-
-.down-submit {
-	background: transparent url(images/down_arrow.png) no-repeat top left;
+button.up-submit:hover,
+button.up-submit.active[type="submit"]:hover,
+button[type="submit"].up-submit:active:hover {
+  background: transparent url(images/up_arrow.png) no-repeat top left;
 }
-
-.voteupdown {
-	height: 30px;
-	padding: 30px 0 0;
-	margin: 0;
-	border: 0;
-	overflow: hidden;
-	vertical-align: middle;
+button.down-submit,
+button.down-submit.active[type="submit"],
+button[type="submit"].down-submit:active {
+  background: transparent url(images/down_arrow.png) no-repeat top left;
 }
-
+button.down-submit:hover,
+button.down-submit.active[type="submit"]:hover,
+button[type="submit"].down-submit:active:hover {
+  background: transparent url(images/down_arrow.png) no-repeat top left;
+}
+.voteupdown,
+button.voteupdown.active[type="submit"],
+button[type="submit"].voteupdown:active {
+  height: 30px;
+  padding: 30px 0 0;
+  margin: 0;
+  border: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: transparent !important;
+  font-size: 14px;
+  white-space: normal;
+  box-shadow: none;
+}
 .updown-current-result {
-	width: 30px;
-	text-align: center;
+  width: 30px;
+  text-align: center;
 }
-
 .updown-rating {
-	width:30px;
+  width: 30px;
+}
+.theme-PJS\.FlatJack .columns form.rate {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
 }
