@@ -71,9 +71,7 @@
     <Content Include="Module.txt" />
     <Content Include="Styles\images\down_arrow.png" />
     <Content Include="Styles\images\up_arrow.png" />
-    <Content Include="Styles\NGM.VoteUpDown.css">
-      <DependentUpon>NGM.VoteUpDown.less</DependentUpon>
-    </Content>
+    <Content Include="Styles\NGM.VoteUpDown.css" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,9 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\NGM.VoteUpDown.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
