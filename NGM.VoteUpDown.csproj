@@ -14,9 +14,11 @@
     <AssemblyName>NGM.VoteUpDown</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <FileUpgradeFlags></FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
-    <UpgradeBackupLocation></UpgradeBackupLocation>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <TargetFrameworkProfile />
     <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
@@ -72,7 +74,6 @@
     <Content Include="Styles\images\down_arrow.png" />
     <Content Include="Styles\images\up_arrow.png" />
     <Content Include="Styles\NGM.VoteUpDown.css" />
-    <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Parts.VoteUpDown.SummaryAdmin.cshtml" />
@@ -138,7 +139,8 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>62205</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl></IISUrl>
+          <IISUrl>
+          </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>True</UseCustomServer>
           <CustomServerUrl>http://www.themayneissue.com</CustomServerUrl>
